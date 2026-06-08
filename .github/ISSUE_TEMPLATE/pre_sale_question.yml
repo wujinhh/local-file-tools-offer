@@ -1,0 +1,38 @@
+﻿name: Pre-sale question
+about: Ask a public scope question before buying a tool or sample service
+labels: question, pre-sale
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this only for public, non-sensitive questions.
+
+        Do not upload private files, customer data, account screenshots, secrets, payment details, or copyrighted material you are not authorized to share.
+
+        Marketplace clients should keep payment and delivery inside the marketplace where the order starts.
+  - type: dropdown
+    id: offer
+    attributes:
+      label: Which offer is this about?
+      options:
+        - Xianyu Windows local tools bundle
+        - Ko-fi Python Micro Automation Bundle
+        - Spreadsheet cleanup sample service
+        - Not sure yet
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Public question
+      description: Describe the workflow or file type without sharing private data.
+      placeholder: Example: I have several inventory spreadsheets with different column names. Can the sample service merge them into one workbook?
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundaries
+    attributes:
+      label: Boundary confirmation
+      options:
+        - label: I am not sharing private files, login details, secrets, or unauthorized data in this issue.
+          required: true
