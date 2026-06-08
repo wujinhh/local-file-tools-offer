@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wujinhh.github.io/local-file-tools-offer/sitemap.xml
