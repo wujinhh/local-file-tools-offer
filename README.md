@@ -10,6 +10,8 @@ This repository hosts a simple public offer page for existing legal cash paths:
 
 Sample scope and delivery notes: [SAMPLE_SCOPE.md](SAMPLE_SCOPE.md)
 
+Compliant share copy: [SHARE_COPY.md](SHARE_COPY.md)
+
 ## Buyer Fit
 
 The offers are intended for small sellers, operations assistants, and administrative users who need local-first help with routine files:
