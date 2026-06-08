@@ -1,4 +1,4 @@
-﻿# Local File Tools Offer
+# Local File Tools Offer
 
 Public landing page: https://wujinhh.github.io/local-file-tools-offer/
 
@@ -7,6 +7,8 @@ This repository hosts a simple public offer page for existing legal cash paths:
 - Xianyu Windows local file tools bundle: CNY 29.90
 - Ko-fi Python Micro Automation Bundle: USD 9
 - Small spreadsheet cleanup service: reference price USD 25 or CNY equivalent
+
+Sample scope and delivery notes: [SAMPLE_SCOPE.md](SAMPLE_SCOPE.md)
 
 ## Buyer Fit
 
