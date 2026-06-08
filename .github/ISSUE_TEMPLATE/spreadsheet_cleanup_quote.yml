@@ -1,0 +1,58 @@
+﻿name: Spreadsheet cleanup quote request
+about: Publicly describe a small spreadsheet cleanup sample before payment
+labels: quote-request, spreadsheet-cleanup
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form only for public, non-sensitive scoping.
+
+        Do not upload the real workbook, customer data, personal data, account exports, payment details, passwords, API keys, or files you are not authorized to share.
+
+        If the work starts on a marketplace, payment and delivery must stay inside that marketplace.
+  - type: input
+    id: file_type
+    attributes:
+      label: File type
+      description: Describe the file type only. Do not attach private files.
+      placeholder: Example: Excel workbook with 4 sheets, or one CSV export
+    validations:
+      required: true
+  - type: textarea
+    id: cleanup_goal
+    attributes:
+      label: Cleanup goal
+      description: Describe the desired output without private data.
+      placeholder: Example: merge sheets, standardize dates and amounts, remove obvious duplicates, add a change log
+    validations:
+      required: true
+  - type: dropdown
+    id: expected_output
+    attributes:
+      label: Expected output
+      options:
+        - Cleaned Excel workbook with change log
+        - Cleaned CSV file
+        - Simple summary sheet plus cleaned data
+        - Not sure yet
+    validations:
+      required: true
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: Urgency
+      options:
+        - 24-hour sample is enough
+        - 2-3 days is enough
+        - Not urgent
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundaries
+    attributes:
+      label: Boundary confirmation
+      options:
+        - label: I will not upload private files or sensitive data in this public issue.
+          required: true
+        - label: I have the right to provide the files if a paid sample starts later.
+          required: true

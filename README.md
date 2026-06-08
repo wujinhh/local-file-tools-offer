@@ -14,6 +14,8 @@ Compliant share copy: [SHARE_COPY.md](SHARE_COPY.md)
 
 Pre-sale public questions: https://github.com/wujinhh/local-file-tools-offer/issues/new?template=pre_sale_question.yml
 
+Spreadsheet quote request: https://github.com/wujinhh/local-file-tools-offer/issues/new?template=spreadsheet_cleanup_quote.yml
+
 ## Buyer Fit
 
 The offers are intended for small sellers, operations assistants, and administrative users who need local-first help with routine files:
